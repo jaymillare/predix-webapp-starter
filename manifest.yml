@@ -1,0 +1,24 @@
+---
+applications:
+  - name: rose-garden-webapp-starter
+    memory: 128M
+    timeout: 180
+    buildpack: nodejs_buildpack
+    command: node server/app.js
+    path: build/es5-basic
+services:
+  - rose-garden-idp
+ # - your-name-time-series
+ # - your-name-asset
+env:
+    node_env: cloud
+    uaa_service_label : predix-uaa
+    # Add these values for authentication in the cloud
+    base64ClientCredential: cm9zZS1nYXJkZW4tc3BjYXBwOlJvc2VHYXJkZW5EZW1vMDkxOA==
+    loginBase64ClientCredential: cm9zZS1nYXJkZW4tc3BjYXBwOlJvc2VHYXJkZW5EZW1vMDkxOA==
+    # Use a full wss:// URL for actual web socket server. use /livestream for mock data.
+    websocketServerURL: /livestream
+    timeSeriesOnly: false
+    #rmdDatasourceURL: {URL of your RMD datasource microservice}
+    rmdDocsURL: "https://raw.githubusercontent.com/PredixDev/predix-rmd-ref-app/master/README.md"
+    #dataExchangeURL: {URL of your data exchange microservice}

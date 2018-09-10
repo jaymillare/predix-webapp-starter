@@ -1,0 +1,16 @@
+[	
+	{ 
+		"productionLineName": "PL-0042",
+        "productLineID": "0042",
+        "productID": "5000050875",
+        "batchNumber": "E3945H",
+		"effectiveDate": "2018-08-16 13:35:10"
+    },
+	{
+		"productionLineName": "PL-0042",
+        "productLineID": "0042",
+        "productID": "5000053341",
+        "batchNumber": "S659F23",
+		"effectiveDate": "2018-08-16 13:35:10"
+    }
+]

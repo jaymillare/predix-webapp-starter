@@ -1,0 +1,22 @@
+[	
+	{ 
+		"productName": "Green Mountain",
+        "productId": "5000050875",
+        "sensor":  "Oxygen",
+		"effectiveDate": "2018-08-16 13:35:10",
+		"lastModified": "2018-08-16 13:35:10",
+		"modifiedId": "J12564S44",
+		"usl": 3,
+		"lsl": 0
+	},
+	{
+		"productName": "Starbucks",
+        "productId": "5000053341",
+        "sensor": "Oxygen",
+		"effectiveDate": "2018-08-16 13:35:10",
+		"lastModified": "2018-08-21 09:15:28",
+		"modifiedId": "J44154D15",
+		"usl": 3.5,
+		"lsl": 0
+	}
+]

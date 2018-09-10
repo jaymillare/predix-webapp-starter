@@ -1,0 +1,24 @@
+[	
+	{ 
+		"productionLineName": "PL-0042",
+        "productLineID": "0042",
+        "sensor":  "Oxygen",
+        "effectiveDate": "2018-08-16 13:35:10",
+        "lastModified": "2018-08-16 13:35:10",
+		"modifiedId": "J12564S44",
+		"ucl": 1.38,
+		"target": 0.49,
+		"lcl": 0
+	},
+	{
+		"productionLineName": "PL-0042",
+        "productLineID": "0042",
+        "sensor":  "Oxygen",
+    	"effectiveDate": "2018-08-21 09:15:28",
+		"lastModified": "2018-08-16 13:35:10",
+		"modifiedId": "J12564S44",
+		"ucl": 1.64,
+		"target": 0.53,
+		"lcl": 0
+	}
+]
